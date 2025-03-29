@@ -1,6 +1,7 @@
 import DesktopNav from "../NavBar/Desktop"
 import { Outlet } from "react-router-dom"
 import MobileNav from "../NavBar/Mobile"
+import Footer from "../Footer/footer"
 
 function Layout() {
   return (
@@ -8,7 +9,7 @@ function Layout() {
         <MobileNav/>
         <DesktopNav/>
         <Outlet/>
-        <p>This is the footer</p>
+        <Footer/>
     </div>
   )
 }
