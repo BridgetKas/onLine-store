@@ -27,9 +27,9 @@ export default function DesktopNav() {
   ]
 
   return (
-    <div className="hidden sm:block w-[95%] mx-auto border border-gray-600">
+    <div className="hidden sm:block w-[98%] mx-auto border border-gray-600">
       <div className=" border flex flex-row items-center justify-around py-4 px-3 gap-2.5">
-        <p>logo</p>
+        <p className="font-extrabold font-sans">SOLYN.</p>
         <input type='text' placeholder="Search" className="w-[50%] h-fit p-3 rounded-lg border border-black"/>
         <div className="flex flex-row items-center gap-2">
           <div className="text-4xl">
