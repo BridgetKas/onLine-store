@@ -40,7 +40,7 @@ export default function DesktopNav() {
             <NavLink to=''>Sign In / Register</NavLink>
           </div>
         </div>
-        <div className="flex flex-row gap-2.5 items-center">
+        <div className="flex flex-row items-center">
           <div className="text-4xl">
             <MdOutlineShoppingCart />
           </div>
