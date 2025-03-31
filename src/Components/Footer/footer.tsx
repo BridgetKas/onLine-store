@@ -4,7 +4,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
 function Footer() {
   return (
-    <div className="fixed bottom-0 w-full border border-t-gray-600">
+    <div className="fixed bottom-0 w-full border border-t-gray-600 bg-[#092347] text-white">
         <div className="p-3 w-[80%] mx-auto flex flex-row items-start justify-between">
             <div>
                 <p className="font-extrabold font-sans">SOLYN.</p>
