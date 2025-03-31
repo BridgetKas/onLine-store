@@ -4,8 +4,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
 function Footer() {
   return (
-    <div className="bg-red-500 fixed bottom-0 w-full">
-        <div className="p-3 w-[80%] bg-orange-600 mx-auto flex flex-row items-start justify-between">
+    <div className="fixed bottom-0 w-full border border-t-gray-600">
+        <div className="p-3 w-[80%] mx-auto flex flex-row items-start justify-between">
             <div>
                 <p className="font-extrabold font-sans">SOLYN.</p>
                 <div className="flex flex-row gap-2 items-center">
@@ -33,7 +33,7 @@ function Footer() {
         </div>
        
        
-        <div className="text-center flex flex-row items-center justify-center gap-1 bg-yellow-500 border border-t-gray-600 p-2">
+        <div className="text-center flex flex-row items-center justify-center gap-1 border border-t-gray-600 p-2">
             <div><FaRegCopyright /></div>
             <p>2025 Solyn All Rights Reserved.</p>
         </div>
